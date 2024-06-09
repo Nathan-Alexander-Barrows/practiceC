@@ -25,14 +25,17 @@ int main(void)
 
 	/**
 	 * printing the result using printf (print formated)
+	 * and modulus float (%f)
 	 */
-	printf("sum: %d\n", sum_result);
+	printf("price: %.2f\n", price);
 
-	printf("difference: %d\n", difference_result);
+	printf("sum is price + 5.01: %.2f\n", sum_result);
 
-	printf("product: %d\n", product_result);
+	printf("difference is price - 4.99: %.2f\n", difference_result);
 
-	printf("qoutient: %d\n", qoutient_result);
+	printf("product is price * 2.0: %.2f\n", product_result);
+
+	printf("qoutient is price / 3.0: %.2f\n", qoutient_result);
 
 	return (0);
 }
