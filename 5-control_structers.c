@@ -52,5 +52,78 @@ int main(void)
 				 */
 			}
 
+			/**
+			 * switch statement: allows the selection of one of many blocks to be executed
+			 */
+			switch (expression)
+			{
+				case value1:
+					/**
+					 * code to be executed if (expression) = (value1)
+					 */
+					break;
+					/**
+					 * code to be executed if (expression) = (value2)
+					 */
+				case value2:
+					break;
+					/**
+					 * more cases
+					 */
+				default:
+					/**
+					 * code to be executed if expression doesnt match any case
+					 */
+			}
+
+			/**
+			 * looping structures: (for) repeats a block of code a specified number of times
+			 */
+			for (initialization; condition; increment)
+			{
+				/**
+				 * code to be executed
+				 */
+			}
+			/**
+			 * while: repeats a block of code (while) a (condition) is true
+			 */
+			while (condition)
+			{
+				/**
+				 * code to be executed
+				 */
+			}
+			/**
+			 * do-while: similar to (while), but ensures that the code block is executed atleast once.
+			 */
+			do
+			{
+				/**
+				 * code to be executed
+				 */
+			}
+			while (condition);
+			/**
+			 * jump statements: (break) exits the nearest enclosing loop or switch statement
+			 */
+			break;
+			/**
+			 * continue: skips the rest of the code in the current loop iteration and starts the
+			 * next iteration
+			 */
+			continue;
+			/**
+			 * goto: transfers control to a lebeled statement within the same function
+			 */
+			goto label;
+			/**
+			 * some code
+			 */
+			label:
+			/**
+			 * code to be executed
+			 */
+
 			return (0);
 		}
