@@ -21,7 +21,6 @@ int main(void)
  */
 int add(int a, int b);
 
-in main(void)
 {
 	/**
 	 * we call the function and pass 3 and 4 as parameters
@@ -41,5 +40,5 @@ int add(int a, int b)
 	 * the function adds the two parameters and returns the result
 	 */
 
-	return a + b;
+	return (a + b);
 	}
